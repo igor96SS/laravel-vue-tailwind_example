@@ -14,6 +14,7 @@ const toggleFullDescription = () => {
 }
 const truncatedDescription = computed(() => {
   let description = props.job.description;
+  console.log('description value: ', description);
   if(!showFullDescription.value){
     description = description.substring(0,90) + '...';
   }
