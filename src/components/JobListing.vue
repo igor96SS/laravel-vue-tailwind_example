@@ -3,7 +3,7 @@ import { RouterLink } from 'vue-router';
 import { defineProps, computed, ref } from 'vue';
 
 
-const porps = defineProps ({
+const props = defineProps ({
     job: Object
 });
 
@@ -13,7 +13,7 @@ const toggleFullDescription = () => {
   showFullDescription.value = !showFullDescription.value;
 }
 const truncatedDescription = computed(() => {
-  let description = porps.job.description;
+  let description = props.job.description;
   if(!showFullDescription.value){
     description = description.substring(0,90) + '...';
   }
