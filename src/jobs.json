@@ -99,20 +99,6 @@
       }
     },
     {
-      "id": "ad3d",
-      "title": "admin",
-      "type": "Full-Time",
-      "location": "fghf",
-      "description": "fghnf",
-      "salary": "$150K - $175K",
-      "company": {
-        "name": "ergfg",
-        "description": "e",
-        "contactEmail": "erg@rer.com",
-        "contactPhone": "wefe"
-      }
-    },
-    {
       "id": "73a4",
       "title": "testing",
       "type": "Full-Time",
@@ -124,20 +110,6 @@
         "description": "wewe",
         "contactEmail": "erg@rer.com",
         "contactPhone": "wec32"
-      }
-    },
-    {
-      "id": "cf50",
-      "title": "wefg",
-      "type": "Full-Time",
-      "location": "wef",
-      "description": "wef",
-      "salary": "$125K - $150K",
-      "company": {
-        "name": "wef",
-        "description": "wef",
-        "contactEmail": "erg@rer.com",
-        "contactPhone": "wef"
       }
     }
   ]
